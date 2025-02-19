@@ -23,21 +23,21 @@ int main() {
     cout << endl;
 
     // 1.3 Print the sum of the first 10 natural numbers
-    sum = 0; // Reset sum
+    sum = 0; 
     for (int i = 1; i <= 10; i++) {
         sum += i;
     }
     cout << "Sum of first 10 natural numbers: " << sum << endl;
 
     // 1.4 Print the sum of the first N natural numbers (N from input)
-    sum = 0; // Reset sum
+    sum = 0; 
     for (int i = 1; i <= N; i++) {
         sum += i;
     }
     cout << "Sum of first " << N << " natural numbers: " << sum << endl;
 
     // 1.5 Print the average of the first 10 natural numbers
-    sum = 0; // Reset sum
+    sum = 0; 
     for (int i = 1; i <= 10; i++) {
         sum += i;
     }
@@ -45,7 +45,7 @@ int main() {
     cout << "Average of first 10 natural numbers: " << average << endl;
 
     // 1.6 Print the average of the first N natural numbers (N from input)
-    sum = 0; // Reset sum
+    sum = 0; 
     for (int i = 1; i <= N; i++) {
         sum += i;
     }
